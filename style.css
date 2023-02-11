@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background-color: rgb(207, 159, 255);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    margin-left: 2px;
+    width: 60px;
+    height: 58px;
+    /* box-shadow: 0 15px 45px rgb(0, 0, 0,0.5);
+    background-color: rgb(228, 181, 181);
+    border-radius: 7px; */
+}
+
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 50px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a{
+    color:rgb(207, 159, 255) ;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 3px 7px;
+    background-color: white;
+    border-radius: 10px;
+    /* border: 1px solid rgb(243, 151, 200); */
+    box-shadow: 0 15px 45px rgb(0, 0, 0,0.5);
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: rgb(207, 159, 255);
+    font-weight: bold;
+}
+
+.search{
+    display: flex;
+    align-items:center ;
+}
+.search input{
+    width: 250px;
+    height: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 30px;
+    border: none;
+    outline: none;
+    box-shadow: 0 15px 45px rgb(0, 0, 0,0.5);
+}
+.btn{
+    display: flex;
+    padding: 5px 7px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: white;
+    color:rgb(207, 159, 255) ;
+    box-shadow: 0 15px 45px rgb(0, 0, 0,0.5);
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(207, 159, 255);
+}
+
+.my-cake{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 100px 0 50px 0;
+    background-color: #F3CCFF;
+}
+.cake-img:hover{
+    padding: 0;
+    margin: 0 55px;
+    box-shadow: 0 15px 45px rgb(0, 0, 0,0.5);
+}
+section img{
+    width: 300px;
+    height: 300px;
+    padding: 0 55px;
+}
+
+.cakes{
+    width: 300px;
+    height: 300px;
+    padding: 0 55px;
+    background-color: #F3CCFF;
+}
+.offer{
+    position: relative;
+    text-align: center;
+}
